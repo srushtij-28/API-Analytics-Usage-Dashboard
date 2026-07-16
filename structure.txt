@@ -1,0 +1,52 @@
+🧠 Why This Is Important
+
+Without analytics:
+Client
+   │
+   ▼
+API
+
+You don't know:
+
+How many requests were made?
+Which endpoint is most used?
+How many errors occurred?
+
+With analytics:
+Client
+   │
+   ▼
+API
+   │
+   ▼
+Analytics Service
+   │
+   ▼
+Dashboard
+
+Benefits:
+✅ Monitor API usage
+✅ Detect bottlenecks
+✅ Track error rates
+✅ Improve performance
+
+Used By :
+Google Cloud API Gateway
+Kong
+AWS API Gateway
+Apigee
+Azure API Management
+
+🛠 Tech Stack
+Python
+Flask
+SQLite
+SQLAlchemy
+
+📂 Project Structure
+api-analytics-dashboard/
+│
+├── app.py
+├── models.py
+├── requirements.txt
+└── README.md
